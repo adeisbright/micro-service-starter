@@ -1,0 +1,19 @@
+{
+  "name": "micro-service-hero-service",
+  "version": "1.0.0",
+  "description": "Hero Service Implementation for the micro service",
+  "main": "heroes.js",
+  "type" : "module" , 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1" , 
+    "start" : "node heroes"
+  },
+  "keywords": [
+    "Micro-service"
+  ],
+  "author": "Adeleke Bright",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
